@@ -1,0 +1,60 @@
+.sobre-mi {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    h2 {
+        font-size: 84px;
+    }
+    p h2 {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.contactame {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-top: 100px;
+    margin-left: 950px;
+    margin-right: 150px;
+    h2 {
+        font-size: 84px;
+    }
+    p h2 {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.custom-form {
+    max-width: 1000px;
+    margin: 0 auto; 
+    margin-top: 50px;
+    .custom-header {
+        background-color:$background-color; /* fondo */
+        .bg-custom {
+            background-color:$background-color; /* color de fondo  */
+            color:map-get($colores,color-titulo); /* color del texto */
+        }
+        
+    }
+    .btn-custom {
+        background-color:$background-color; /* fondo del botón */
+        border: solid 1px map-get($colores,color-texto); /* borde del botón */
+        border-radius: 3px;
+        color: map-get($colores,color-texto); /* texto en el botón */
+        font-size: 20px;
+        &hover {
+            background-color:$background-color; /* fondo del botón */
+            border: solid 1px map-get($colores,color-titulo); /* borde del botón */
+            color: map-get($colores,color-titulo); /* texto en el botón */
+            font-size: 20px;
+            
+        }
+    }
+}
+

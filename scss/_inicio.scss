@@ -1,0 +1,28 @@
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 130px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.presentacion h2 {
+    font-size: 84px;
+    margin-top: 0px;
+}
+.presentacion p, .presentacion h1, .presentacion p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.contactame-inicio {
+    background-color:$background-color; 
+    color: map-get($colores,color-texto); 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    &hover {
+        background-color: #000000;
+    }
+}

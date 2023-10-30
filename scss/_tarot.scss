@@ -1,0 +1,45 @@
+.titulo-tarot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    h2 p {
+        margin: 0;
+    }
+}
+    
+
+.contenedor-tarot {
+    display: flex;
+    margin: 100px;
+    .caja-izquierda {
+        width: 50%;
+        margin: 10px;
+        
+    }
+    .caja-derecha {
+        width: 50%;
+        margin: 10px;
+    }
+}
+
+.articulo1 {
+    padding: 20px;
+    text-align: center;
+}
+.articulo2 {
+    padding: 20px;
+    text-align: center;
+}
+.articulo3 {
+    padding: 20px;
+    text-align: center;
+}
+.articulo4 {
+    padding: 20px;
+    text-align: center;
+}
+
+
+

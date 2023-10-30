@@ -1,0 +1,112 @@
+.descrubri {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.descrubri h2 {
+    font-size: 64px;
+}
+
+.descrubri p, .descrubri h2, .descrubri p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.consultorio {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-top: 100px;
+    margin-left: 950px;
+    margin-right: 150px;
+}
+
+.consultorio h2 {
+    font-size: 64px;
+}
+
+.consultorio p, .consultorio h2, .consultorio p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.mapa {
+    width: 500px;
+    height: 500px;
+}
+
+.domicilio {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.domicilio h2 {
+    font-size: 64px;
+}
+
+.domicilio p, .domicilio h2, .domicilio p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.zoom {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-top: 100px;
+    margin-left: 950px;
+    margin-right: 150px;
+}
+
+.zoom h2 {
+    font-size: 64px;
+}
+
+.zoom p, .zoom h2, .zoom p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+
+.servicios {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+
+.servicios h2 {
+    margin: 0;
+    font-size: 60px;
+    margin-bottom: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.servicios h3 {
+    margin: 0;
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.servicios img {
+    width: 300px;
+    height: 300px;
+}
+
+.articulos-servicios {
+    display: flex;
+    justify-content: space-between; 
+
+}
